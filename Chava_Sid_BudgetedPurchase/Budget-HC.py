@@ -15,8 +15,8 @@ def read_file(file_path):
             object_name, value, price = line.split()
             value, price = int(value), int(price)
             object_list.append((object_name, value, price))
-        
 
+        print(object_list)
     return V, B, output_type, object_list, restart_count
 
 
